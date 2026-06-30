@@ -6,8 +6,8 @@ title: Sequor Robotics Research # the website title (if blank, full name will be
 first_name: Sequor
 middle_name: Robotics
 last_name: Research
-contact_note: >
-  The best way to reach us is by email.
+# contact_note: >
+#   The best way to reach us is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Sequor Robotics Research — advancing robotics through research. A collection of our research works.
 footer_text: >
@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: robotics, research, robot learning, manipulation, locomotion, Sequor Robotics # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: sequor_git_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sequor-robotics-research.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -121,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: research # blog_name will be displayed as the heading on the research page
-blog_description: A collection of our research works.
+blog_name: Research # blog_name will be displayed as the heading on the research page
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
