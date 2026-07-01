@@ -23,11 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to the research division of **Sequor Robotics**. We believe **the world is not 2D** — our mission is to enable robots to understand and learn in the world humans inhabit.
+Welcome to the research division of Sequor Robotics. We believe the world is not 2D — our mission is to enable robots to understand and learn in the world humans inhabit.
 
-Our work centers on 3D vision and simulation. We turn real physical spaces into learnable 3D simulation environments, complete with distance, collision, and sensor information, so that robots can be trained safely and at scale. This spans the full loop: **Real-to-Sim** (scanning spaces into simulation), **Sim-to-Real** (deploying trained policies onto physical robots), and a continuous **Robot Learning Loop** that improves policies from operational data. Ultimately, we are building toward a Robot Foundation Model that lets robots perceive, plan, and act across diverse environments through spatial intelligence.
-
-This site collects the research, publications, and open-source work coming out of our team. See our <a href="{{ '/research/' | relative_url }}" style="text-decoration: underline;">research</a> for a list of our works.
+Our work centers on 3D vision and simulation: we turn real physical spaces into learnable 3D environments so robots can be trained safely and at scale, and we work toward a Robot Foundation Model that lets them perceive, plan, and act across diverse environments. This site collects the research, publications, and open-source work coming out of our team — see our <a href="{{ '/research/' | relative_url }}" style="text-decoration: underline;">research</a> for a list of our works.
 
 **Get in touch:**
 
