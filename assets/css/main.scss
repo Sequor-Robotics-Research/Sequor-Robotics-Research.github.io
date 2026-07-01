@@ -1,0 +1,45 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+# Local override of al_folio_core's assets/css/main.scss. Identical to the gem
+# entry, plus a :root override at the end that sets the accent color to black
+# instead of al-folio's purple (light mode). Dark mode keeps its cyan accent so
+# links stay readable on the dark background.
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials. */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Theme partials (resolved from the al_folio_core gem's _sass). */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ---------------------------------------------------------------------------
+ * Local color override: black accent instead of al-folio purple.
+ * These come after @use "themes", so they win in the cascade. Only light mode
+ * is changed; dark mode keeps its (readable) cyan accent.
+ * ------------------------------------------------------------------------- */
+:root {
+  --global-theme-color: #000000;
+  --global-hover-color: #000000;
+}

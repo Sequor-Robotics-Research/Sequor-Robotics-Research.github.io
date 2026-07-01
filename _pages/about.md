@@ -23,4 +23,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-See our [research]({{ '/research/' | relative_url }}) for a list of our works.
+See our <a href="{{ '/research/' | relative_url }}" style="text-decoration: underline;">research</a> for a list of our works.
