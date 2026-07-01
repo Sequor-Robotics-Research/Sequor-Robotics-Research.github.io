@@ -54,3 +54,14 @@ html,
 body {
   font-family: "Times New Roman", Times, Tinos, serif;
 }
+
+/* ---------------------------------------------------------------------------
+ * Fix bold text: al-folio sets body font-weight to 300 (light), and the
+ * browser default for <strong>/<b> is `bolder`, which is relative — "bolder
+ * than 300" only computes to 400 (normal), so **markdown bold** looks unbolded.
+ * Force an absolute bold weight.
+ * ------------------------------------------------------------------------- */
+strong,
+b {
+  font-weight: 700;
+}

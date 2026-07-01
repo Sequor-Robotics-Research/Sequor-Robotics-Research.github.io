@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The following paper is accepted to the IEEE Robotics and Automation Letters (RA-L): Memory-Efficient Voxelized Renderable Neural 3D Spatial Representation for Vision-Based Robotics
+The following paper is accepted to the IEEE Robotics and Automation Letters (RA-L): **Memory-Efficient Voxelized Renderable Neural 3D Spatial Representation for Vision-Based Robotics**
