@@ -43,3 +43,14 @@
   --global-theme-color: #000000;
   --global-hover-color: #000000;
 }
+
+/* ---------------------------------------------------------------------------
+ * Academic-paper (IEEE) typography: Times New Roman serif throughout.
+ * Loads after the gem's tailwind.css (which sets body { font-family: Roboto }),
+ * so this wins the cascade. Everything else inherits from body; code blocks
+ * keep their monospace font (set separately in the theme).
+ * ------------------------------------------------------------------------- */
+html,
+body {
+  font-family: "Times New Roman", Times, Tinos, serif;
+}
